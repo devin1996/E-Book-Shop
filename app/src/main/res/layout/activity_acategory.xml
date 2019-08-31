@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ACategoryActivity"
+    android:background="@drawable/b4">
+
+    <TextView
+        android:id="@+id/slogan_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Add new Book"
+        android:textAlignment="center"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+
+        />
+    <LinearLayout
+        android:id="@+id/linearb1_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/slogan_category"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        >
+
+        <Button
+        android:id="@+id/bcomputing"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:text="Comp."
+            />
+
+        <Button
+            android:id="@+id/bengineering"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:text="Eng." />
+
+        <Button
+            android:id="@+id/bbusiness"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:text="Bus." />
+
+        <Button
+            android:id="@+id/bart"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:text="Art" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearb2_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearb1_category_layout"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        >
+
+        <Button
+            android:id="@+id/bmaths"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:text="Maths" />
+
+        <Button
+            android:id="@+id/bbio"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:text="Bio" />
+
+        <Button
+            android:id="@+id/bphysics"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:text="Phy." />
+
+        <Button
+            android:id="@+id/bchemistry"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:text="Che." />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearb3_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearb2_category_layout"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        >
+
+        <Button
+            android:id="@+id/bolevel"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:text="GCE OL" />
+
+        <Button
+            android:id="@+id/bgten"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:text="Ten" />
+
+        <Button
+            android:id="@+id/bnine"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:text="Nine" />
+
+        <Button
+            android:id="@+id/beight"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:text="Eight"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/check_orders_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/admin_logout_btn"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Check new Orders"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        android:layout_marginBottom="10dp"
+        />
+
+    <Button
+        android:id="@+id/admin_logout_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Logout"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        android:layout_marginBottom="10dp"
+
+        />
+
+</RelativeLayout>

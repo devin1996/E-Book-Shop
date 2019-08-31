@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "653438348459",
+    "firebase_url": "https://viralms-db015.firebaseio.com",
+    "project_id": "viralms-db015",
+    "storage_bucket": "viralms-db015.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:653438348459:android:4ab21261e3665aaa",
+        "android_client_info": {
+          "package_name": "com.example.vlms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "653438348459-tn9g5j7qopcebg64o5tra3ppdmcj04dp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.vlms",
+            "certificate_hash": "83f8878e0b398da59435da19323f04986043c4df"
+          }
+        },
+        {
+          "client_id": "653438348459-jeudfj1oo95lochqak20gib20jjehd5l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZxoywTMbOyiMIaON4ACikbGTIkvbig7U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "653438348459-jeudfj1oo95lochqak20gib20jjehd5l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
