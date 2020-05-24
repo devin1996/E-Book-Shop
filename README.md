@@ -1,0 +1,5 @@
+Online Bookshop
+
+ANDROID MOBILE APPLICATION THAT CAN BE USED AS ONLINE BOOK SHARING AND SELLING PLATFORM
+
+Technologies Used : Android Studio and Firebase
