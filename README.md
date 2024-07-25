@@ -1,7 +1,9 @@
 # Books Sharing and Selling Online App
 
+Gradle Version : 4.10.1
+
 ## Overview
-Our Books Sharing and Selling Online App is designed to facilitate a seamless platform for book lovers to buy, sell, and share books. Whether you're looking to clear out your old collection or find your next great read, our app offers a user-friendly interface that makes the process easy and enjoyable. Built with robust technologies and designed for the Android platform, this app connects book sellers and customers in a simple and efficient manner.
+Books Sharing and Selling Online App is designed to facilitate a seamless platform for book lovers to buy, sell, and share books. Whether you're looking to clear out your old collection or find your next great read, our app offers a user-friendly interface that makes the process easy and enjoyable. Built with robust technologies and designed for the Android platform, this app connects book sellers and customers in a simple and efficient manner.
 
 ## Features
 
@@ -27,7 +29,7 @@ Our Books Sharing and Selling Online App is designed to facilitate a seamless pl
 - **Android OS:** The app is designed and optimized for Android devices, providing a smooth and intuitive user experience for Android users.
 
 ## Open Source and Community Contributions
-This project is open source and free for anyone to use and contribute to. We welcome developers, book lovers, and anyone interested to participate in enhancing the app. You can access the source code, submit issues, request features, and contribute to the development on our [GitHub repository](#).
+This project is open source and free for anyone to use and contribute to. We welcome developers, book lovers, and anyone interested to participate in enhancing the app. You can access the source code, submit issues, request features, and contribute to the development.
 
 **Join our community and help us build a better platform for book enthusiasts!**
 
@@ -41,8 +43,33 @@ This project is open source and free for anyone to use and contribute to. We wel
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/book-sharing-selling-app.git
+   git clone https://github.com/devin1996/E-Book-Shop.git
 2. Open the project in Android Studio.
 3. Set up Firebase:
   * Follow the instructions to add Firebase to your Android project.
   * Configure Authentication, Firestore, and Storage in the Firebase console.
+4. Build and run the app on your Android device or emulator.
+
+### Contributing
+We welcome contributions from the community. Please follow these steps to contribute:
+
+1. Fork the repository.
+
+2. Create a new branch:
+   ```bash
+   git checkout -b feature-name
+
+3. Make your changes and commit them:
+   ```bash
+   git commit -m 'Add some feature'
+
+4. Push to the branch:
+   ```bash
+   git push origin feature-name
+
+5. Create a pull request.
+
+
+### Contact
+If you have any questions or suggestions, feel free to open an issue.
+
